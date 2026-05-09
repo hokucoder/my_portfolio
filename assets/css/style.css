@@ -766,7 +766,11 @@ main {
 
 .article-title { margin-bottom: 30px; }
 
-
+.download-btn {
+    color: white;
+    text-decoration: none;
+    justify-content: flex-end;
+}
 /**
  * education and experience 
  */
