@@ -873,7 +873,7 @@ main {
 /* Container Layout */
 .language-list {
   display: flex;
-  gap: 40px; /* Increased gap for better spacing */
+  gap: 10px; /* Increased gap for better spacing */
   padding: 30px;
   flex-wrap: wrap;
 }
@@ -928,7 +928,7 @@ main {
 }
 
 .language-item .h5 {
-  color: var(--light-gray);
+  color: #fff;
   font-size: 0.9rem;
   font-weight: 400;
   letter-spacing: 0.5px;
@@ -1102,7 +1102,12 @@ main {
 .certificates-posts-list {
   display: grid;
   grid-template-columns: 1fr;
-  gap: 20px;
+  gap: 15px;
+  scroll-behavior: smooth;
+  overscroll-behavior-inline: contain;
+  scroll-snap-type: inline mandatory;
+  scroll-padding-inline: 25px;
+
 }
 
 .certificates-post-item > a {
@@ -1112,6 +1117,7 @@ main {
   box-shadow: var(--shadow-4);
   border-radius: 16px;
   z-index: 1;
+  scroll-snap-align: start;
 }
 
 .certificates-post-item > a::before {
