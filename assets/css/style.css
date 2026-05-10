@@ -873,7 +873,7 @@ main {
 /* Container Layout */
 .language-list {
   display: flex;
-  gap: 10px; /* Increased gap for better spacing */
+  gap: 5px; /* Increased gap for better spacing */
   padding: 30px;
   flex-wrap: wrap;
 }
@@ -887,8 +887,8 @@ main {
 
 /* The Progress Ring */
 .circular-progress {
-  width: 90px;  /* Slightly larger */
-  height: 90px;
+  width: 70px;  /* Slightly larger */
+  height: 50px;
   border-radius: 50%;
   position: relative;
   display: flex;
@@ -909,8 +909,8 @@ main {
 
 /* The inner circle (The "Hole") */
 .inner-circle {
-  width: 76px; /* Adjust this to change thickness of the ring */
-  height: 76px;
+  width: 56px; /* Adjust this to change thickness of the ring */
+  height: 56px;
   background: #1e1e1f; /* Use your EXACT card background hex here */
   border-radius: 50%;
   display: flex;
